@@ -4,7 +4,7 @@
  */
 
 'use strict'
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 import {
     StyleSheet,
     View,
@@ -54,8 +54,8 @@ function AlertButtons(props) {
 }
 class AlertUI extends Component {
     static PropTypes = {
-        title:PropTypes.oneOf([PropTypes,string,PropTypes.element]),
-        message:PropTypes.oneOf([PropTypes,string,PropTypes.element]),
+        title:PropTypes.oneOf([PropTypes.string,PropTypes.element]),
+        message:PropTypes.oneOf([PropTypes.string,PropTypes.element]),
         button:PropTypes.arrayOf(PropTypes.shape({
             text:PropTypes.string,
             onPress:PropTypes.func
