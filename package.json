@@ -1,0 +1,31 @@
+{
+  "name": "react-native-alertui",
+  "version": "1.0.0",
+  "description": "provide a alert component for both android and ios",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallyoung/react-native-alertui.git"
+  },
+  "keywords": [
+    "alert",
+    "react-native",
+    "component",
+    "ui",
+    "ios",
+    "android",
+    "awesome"
+  ],
+  "author": "Spencer Ye",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pallyoung/react-native-alertui/issues"
+  },
+  "homepage": "https://github.com/pallyoung/react-native-alertui#readme"
+}
