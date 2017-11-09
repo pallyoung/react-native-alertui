@@ -15,6 +15,7 @@ import {
     Modal,
     PixelRatio
 } from 'react-native';
+import PropTypes from 'prop-types';
 
 let window = Dimensions.get('window');
 function AlertTitle(props) {
@@ -52,6 +53,14 @@ function AlertButtons(props) {
     return null;
 }
 class AlertUI extends Component {
+    static PropTypes = {
+        title:PropTypes.oneOf([PropTypes,string,PropTypes.element]),
+        message:PropTypes.oneOf([PropTypes,string,PropTypes.element]),
+        button:PropTypes.arrayOf(PropTypes.shape({
+            text:PropTypes.string,
+            onPress:PropTypes.func
+        }))
+    }
     constructor(...props) {
         super(...props);
     }
