@@ -1,7 +1,7 @@
 # react-native-alertui
 if you want to have a same alert dialog ui on android and ios,you can use react-native-alertui,it provide a common component for both android and ios platform.
 ## previews
-![preivews](!imgs/alert_preview.jpg)
+![preivews](imgs/alert_preview.jpg =375)
 ## example
 ```
 cd example && npm install
