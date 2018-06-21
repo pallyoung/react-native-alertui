@@ -1,6 +1,6 @@
 {
   "name": "react-native-alertui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "provide a alert component for both android and ios",
   "main": "index.js",
   "directories": {

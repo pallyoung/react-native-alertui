@@ -53,7 +53,7 @@ function AlertButtons(props) {
     return null;
 }
 class AlertUI extends Component {
-    static PropTypes = {
+    static propTypes = {
         title:PropTypes.oneOf([PropTypes.string,PropTypes.element]),
         message:PropTypes.oneOf([PropTypes.string,PropTypes.element]),
         button:PropTypes.arrayOf(PropTypes.shape({
